@@ -1,7 +1,8 @@
 ### Hi, welcome to my profile 👋
 
-I'm Muhammad Naufal Kateni. I'm a Computer Science Student at Sriwijaya University. I'm currently learning
-Django and REST API with JWT Authentication
+<!-- Summary -->
+## I'm Muhammad Naufal Kateni. I'm Computer Science Student at Sriwijaya University. I'm currently interest in developing Backend Application using Django
+---
 
 ### 📭 Contact
   - [LinkedIn](https://www.linkedin.com/in/muhammad-naufal-kateni-10065420a/)
@@ -32,6 +33,7 @@ Django and REST API with JWT Authentication
   <img align="left" alt="Heroku" width="48px" height="48px" src="https://raw.githubusercontent.com/github/explore/cb661bc288627f05a5ac4187b00495fd8048c9fa/topics/heroku/heroku.png" />
 </a>
 
+<!-- Linebreak -->
 <br>
 <br>
 <br>
