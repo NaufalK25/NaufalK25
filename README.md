@@ -37,5 +37,5 @@ Django and REST API with JWT Authentication
 <br>
 
 ### 📃 Status
-![NaufalK's GitHub Stats](https://github-readme-stats.vercel.app/api?username=NaufalK25&show_icons=true&hide_border=true&include_all_commits=true&theme=blue-green)
-![NaufalK's Most Used Language](https://github-readme-stats.vercel.app/api/top-langs/?username=NaufalK25&theme=blue-green&show_icons=true&layout=compact&hide_border=true)
+![NaufalK's GitHub Stats](https://github-readme-stats.vercel.app/api?username=NaufalK25&show_icons=true&hide_border=true&include_all_commits=true&theme=blueberry)
+![NaufalK's Most Used Language](https://github-readme-stats.vercel.app/api/top-langs/?username=NaufalK25&theme=blueberry&show_icons=true&layout=compact&hide_border=true)
