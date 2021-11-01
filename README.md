@@ -2,7 +2,6 @@
 
 <!-- Summary -->
 ## I'm Muhammad Naufal Kateni. I'm Computer Science Student at Sriwijaya University. I'm currently interest in developing Backend Application using Django
----
 
 ### 📭 Contact
   - [LinkedIn](https://www.linkedin.com/in/muhammad-naufal-kateni-10065420a/)
