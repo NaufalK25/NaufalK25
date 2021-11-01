@@ -1,6 +1,7 @@
 ### Hi, welcome to my profile 👋
 
 I'm Muhammad Naufal Kateni. I'm a Computer Science Student at Sriwijaya University. I'm currently learning
+Django and REST API with JWT Authentication
 
 ### 📭 Contact
   - [LinkedIn](https://www.linkedin.com/in/muhammad-naufal-kateni-10065420a/)
