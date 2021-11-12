@@ -1,11 +1,16 @@
 ### Hi, welcome to my profile 👋
 
-<!-- Summary -->
-## I'm Muhammad Naufal Kateni. I'm Computer Science Student at Sriwijaya University. I'm currently interest in developing Backend Application using Django
+<!-- Contacts -->
+### Connect with me
+<a href="https://replit.com/@NaufalK25">
+  <img src="img/replit.png" alt="Replit" width="30px" height="30px" style="margin-left:10px">
+</a>
+<a href="https://www.linkedin.com/in/muhammad-naufal-kateni-10065420a/">
+  <img src="img/linkedin.png" alt="LinkedIn" width="30px" height="30px" style="margin-left: 10px">
+</a>
 
-### 📭 Contact
-  - [LinkedIn](https://www.linkedin.com/in/muhammad-naufal-kateni-10065420a/)
-  - [Replit](https://replit.com/@NaufalK25/)
+<!-- Linebreak -->
+<br>
 
 ### 📚 Technology Stack
 
@@ -33,6 +38,7 @@
 </a>
 
 <!-- Linebreak -->
+<br>
 <br>
 <br>
 <br>
