@@ -1,18 +1,18 @@
-### Hi, welcome to my profile 👋
+### Welcome to my profile 👋
+---
+<!-- Summary -->
+Hi, My name is [Muhammad Naufal Kateni](https://www.linkedin.com/in/muhammad-naufal-kateni-10065420a/), I'm a college student. I'm aiming to become a Backend Developer. I'm Currenly learning Django Framework and a bit of JavaScript. Nice to meet you!
 
 <!-- Contacts -->
-### Connect with me
-<a href="https://replit.com/@NaufalK25">
-  <img src="img/replit.png" alt="Replit" width="48px" height="48px" style="margin-left:10px">
-</a>
+### 📫 Connect with me
 <a href="https://www.linkedin.com/in/muhammad-naufal-kateni-10065420a/">
   <img src="img/linkedin.png" alt="LinkedIn" width="48px" height="48px" style="margin-left: 10px">
 </a>
+<a href="https://replit.com/@NaufalK25">
+  <img src="img/replit.png" alt="Replit" width="48px" height="48px" style="margin-left:10px">
+</a>
 
-<!-- Linebreak -->
-<br>
-
-### 📚 Technology Stack
+<!-- ### 📚 Technology Stack
 
 <a href="https://github.com/topics/python">
   <img align="left" alt="Python" width="48px" height="48px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />
@@ -35,12 +35,11 @@
 
 <a href="https://github.com/topics/heroku">
   <img align="left" alt="Heroku" width="48px" height="48px" src="https://raw.githubusercontent.com/github/explore/cb661bc288627f05a5ac4187b00495fd8048c9fa/topics/heroku/heroku.png" />
-</a>
+</a> -->
 
 <!-- Linebreak -->
 <br>
-<br>
-<br>
+
 
 ### 📃 Status
 ![NaufalK's GitHub Stats](https://github-readme-stats.vercel.app/api?username=NaufalK25&show_icons=true&hide_border=true&include_all_commits=true&theme=blueberry)
