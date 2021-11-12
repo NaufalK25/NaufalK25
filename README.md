@@ -3,10 +3,10 @@
 <!-- Contacts -->
 ### Connect with me
 <a href="https://replit.com/@NaufalK25">
-  <img src="img/replit.png" alt="Replit" width="30px" height="30px" style="margin-left:10px">
+  <img src="img/replit.png" alt="Replit" width="48px" height="48px" style="margin-left:10px">
 </a>
 <a href="https://www.linkedin.com/in/muhammad-naufal-kateni-10065420a/">
-  <img src="img/linkedin.png" alt="LinkedIn" width="30px" height="30px" style="margin-left: 10px">
+  <img src="img/linkedin.png" alt="LinkedIn" width="48px" height="48px" style="margin-left: 10px">
 </a>
 
 <!-- Linebreak -->
@@ -38,7 +38,6 @@
 </a>
 
 <!-- Linebreak -->
-<br>
 <br>
 <br>
 <br>
