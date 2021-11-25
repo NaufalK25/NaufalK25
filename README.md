@@ -18,8 +18,12 @@ Hi, My name is [Muhammad Naufal Kateni](https://www.linkedin.com/in/muhammad-nau
 <!-- Status -->
 ### 📃 Status
 <!-- Stats from https://github-readme-stats.vercel.app -->
-![NaufalK's GitHub Stats](https://github-readme-stats.vercel.app/api?username=NaufalK25&show_icons=true&hide_border=true&include_all_commits=true&theme=blueberry)
-![NaufalK's Most Used Language](https://github-readme-stats.vercel.app/api/top-langs/?username=NaufalK25&theme=blueberry&show_icons=true&layout=compact&hide_border=true)
+![Naufal's GitHub Stats](https://github-readme-stats.vercel.app/api?username=NaufalK25&show_icons=true&hide_border=false&include_all_commits=true&theme=blueberry)
+![Naufal's Most Used Language](https://github-readme-stats.vercel.app/api/top-langs/?username=NaufalK25&theme=blueberry&show_icons=true&layout=compact&hide_border=false)
+
+<!-- Stats from GitHub -->
+<!-- ![Naufal's GitHub Stats](https://github-readme-stats.vercel.app/api?username=NaufalK25&theme=dark&show_icons=true&hide_border=false)
+![Naufal's Most Used Language](https://github-readme-stats.vercel.app/api/top-langs/?username=NaufalK25&theme=dark&show_icons=true&layout=compact) -->
 
 <!-- Credits -->
 <!-- ###  💖 Credits
