@@ -1,7 +1,7 @@
 ### Welcome to my profile 👋
 ---
 <!-- Summary -->
-Hi, My name is [Muhammad Naufal Kateni](https://www.linkedin.com/in/muhammad-naufal-kateni-10065420a/), I'm a college student. I'm aiming to become a Backend Developer. I'm Currenly learning Django Framework and a bit of JavaScript. Nice to meet you!
+Hi, My name is [Muhammad Naufal Kateni](https://www.linkedin.com/in/muhammad-naufal-kateni-10065420a/), I'm a college student. I'm aiming to become a Backend Developer. I'm Currenly learning NodeJS and ExpressJS. Nice to meet you!
 
 <!-- Contacts -->
 ### 📫 Connect with me
