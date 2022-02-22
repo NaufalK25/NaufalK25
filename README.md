@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/github/followers/NaufalK25?label=Followers&style=social" alt="NaufalK25's GitHub Followers">
 </a>
 <a href="https://www.freecodecamp.org/NaufalK" title="freeCodeCamp Points">
-  <img src="https://img.shields.io/freecodecamp/points/NaufalK?label=Points&style=social&logo=freecodecamp" alt="NaufalK25's freeCodeCamp Points">
+  <img src="https://img.shields.io/freecodecamp/points/naufalk?label=Points&style=social&logo=freecodecamp" alt="NaufalK25's freeCodeCamp Points">
 </a>
 <a href="https://www.codewars.com/users/NaufalK" title="Codewars Badge">
   <img src="https://www.codewars.com/users/NaufalK/badges/micro" alt="NaufalK25's GitHub Codewars Badge">
