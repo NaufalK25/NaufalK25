@@ -9,8 +9,8 @@
 <a href="https://github.com/NaufalK25?tab=followers" title="GitHub Followers">
   <img src="https://img.shields.io/github/followers/NaufalK25?label=Followers&style=social" alt="NaufalK25's GitHub Followers">
 </a>
-<a href="https://www.freecodecamp.org/fccef7dd44a-1395-47ed-88c4-18f00560d10a" title="freeCodeCamp Points">
-  <img src="https://img.shields.io/freecodecamp/points/fccef7dd44a-1395-47ed-88c4-18f00560d10a?label=Points&style=social&logo=freecodecamp" alt="NaufalK25's freeCodeCamp Points">
+<a href="https://www.freecodecamp.org/NaufalK" title="freeCodeCamp Points">
+  <img src="https://img.shields.io/freecodecamp/points/NaufalK?label=Points&style=social&logo=freecodecamp" alt="NaufalK25's freeCodeCamp Points">
 </a>
 <a href="https://www.codewars.com/users/NaufalK" title="Codewars Badge">
   <img src="https://www.codewars.com/users/NaufalK/badges/micro" alt="NaufalK25's GitHub Codewars Badge">
