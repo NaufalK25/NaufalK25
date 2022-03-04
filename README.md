@@ -48,7 +48,7 @@ Hi, My name is [Muhammad Naufal Kateni](https://muhammad-naufal-kateni.herokuapp
 <a href="https://github.com/NaufalK25" title="NaufalK25's Most Used Language">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NaufalK25&theme=blueberry&show_icons=true&layout=compact&hide_border=true&langs_count=8&custom_title=NaufalK25's%20Most%20Used%20Languages" alt="NaufalK25's Most Used Language">
 </a>
-<a href="https://github.com/NaufalK25" title="[NaufalK25's Contribution Graph">
+<a href="https://github.com/NaufalK25" title="NaufalK25's Contribution Graph">
   <img src="https://activity-graph.herokuapp.com/graph?username=NaufalK25&bg_color=242938&color=7fa5f8&line=26bf8f&point=FFFFFF&hide_border=true&custom_title=NaufalK25's%20Contribution%20Graph" alt="[NaufalK25's Contribution Graph">
 </a>
 
