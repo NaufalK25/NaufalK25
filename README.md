@@ -40,17 +40,16 @@ Hi, My name is [Muhammad Naufal Kateni](https://muhammad-naufal-kateni.herokuapp
 
 ### 📃 Stats
 
-<!-- Stats from https://github-readme-stats.vercel.app -->
-
-<a href="https://github.com/NaufalK25" title="NaufalK25's GitHub Stats">
-  <img src="https://github-readme-stats.vercel.app/api?username=NaufalK25&show_icons=true&hide_border=true&include_all_commits=true&theme=blueberry&custom_title=NaufalK25's%20GitHub%20Stats" alt="NaufalK25's GitHub Stats">
-</a>
-<a href="https://github.com/NaufalK25" title="NaufalK25's Most Used Language">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NaufalK25&theme=blueberry&show_icons=true&layout=compact&hide_border=true&langs_count=8&custom_title=NaufalK25's%20Most%20Used%20Languages" alt="NaufalK25's Most Used Language">
-</a>
-<a href="https://github.com/NaufalK25" title="NaufalK25's Contribution Graph">
-  <img src="https://activity-graph.herokuapp.com/graph?username=NaufalK25&bg_color=242938&color=7fa5f8&line=26bf8f&point=FFFFFF&hide_border=true&custom_title=NaufalK25's%20Contribution%20Graph" alt="[NaufalK25's Contribution Graph">
-</a>
+<!-- Stats from https://github-readme-stats.vercel.app -->\
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=NaufalK25&show_icons=true&hide_border=true&include_all_commits=true&theme=react&custom_title=NaufalK25's%20GitHub%20Stats" alt="NaufalK25's GitHub Stats">
+</p>
+<p>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NaufalK25&theme=react&show_icons=true&layout=compact&hide_border=true&langs_count=8&custom_title=NaufalK25's%20Most%20Used%20Languages" alt="NaufalK25's Most Used Language">
+</p>
+<p>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=NaufalK25&theme=react&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="NaufalK25's Streak Stats">
+</p>
 
 <!-- Stats from GitHub -->
 <!-- ![Naufal's GitHub Stats](https://github-readme-stats.vercel.app/api?username=NaufalK25&theme=dark&show_icons=true&hide_border=false)
