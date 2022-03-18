@@ -40,7 +40,7 @@ Hi, My name is [Muhammad Naufal Kateni](https://muhammad-naufal-kateni.herokuapp
 
 ### 📃 Stats
 
-<!-- Stats from https://github-readme-stats.vercel.app -->\
+<!-- Stats from https://github-readme-stats.vercel.app -->
 <p>
   <img src="https://github-readme-stats.vercel.app/api?username=NaufalK25&show_icons=true&hide_border=true&include_all_commits=true&theme=react&custom_title=NaufalK25's%20GitHub%20Stats" alt="NaufalK25's GitHub Stats">
 </p>
