@@ -3,18 +3,10 @@
 ---
 
 <!-- Badges -->
-<a href="https://github.com/NaufalK25" title="Profile Views">
-  <img src="https://komarev.com/ghpvc/?username=NaufalK25" alt="NaufalK25's GitHub Profile Views">
-</a>
-<a href="https://github.com/NaufalK25?tab=followers" title="GitHub Followers">
-  <img src="https://img.shields.io/github/followers/NaufalK25?label=Followers&style=social" alt="NaufalK25's GitHub Followers">
-</a>
-<a href="https://www.freecodecamp.org/NaufalK" title="freeCodeCamp Points">
-  <img src="https://img.shields.io/freecodecamp/points/naufalk?label=Points&style=social&logo=freecodecamp" alt="NaufalK25's freeCodeCamp Points">
-</a>
-<a href="https://www.codewars.com/users/NaufalK" title="Codewars Badge">
-  <img src="https://www.codewars.com/users/NaufalK/badges/micro" alt="NaufalK25's GitHub Codewars Badge">
-</a>
+![NaufalK25's GitHub Profile Views](https://komarev.com/ghpvc/?username=NaufalK25)
+[![NaufalK25's GitHub Followers](https://img.shields.io/github/followers/NaufalK25?label=Followers&style=social)](https://github.com/NaufalK25?tab=followers)
+[![NaufalK25's freeCodeCamp Points](https://img.shields.io/freecodecamp/points/naufalk?label=Points&style=social&logo=freecodecamp)](https://www.freecodecamp.org/NaufalK)
+[![NaufalK25's GitHub Codewars Badge](https://www.codewars.com/users/NaufalK/badges/micro)](https://www.codewars.com/users/NaufalK)
 
 <!-- Summary -->
 
@@ -23,15 +15,13 @@ Hi, My name is [Muhammad Naufal Kateni](https://muhammad-naufal-kateni.herokuapp
 <!-- Contacts -->
 
 ### 📫 Connect with me
-
-<section style="display:flex;gap:1rem;align-items:center;">
-<a href="https://www.linkedin.com/in/muhammad-naufal-kateni-10065420a/" title="Muhammad Naufal Kateni">
-  <img src="img/linkedin.png" alt="Muhammad Naufal Kateni" width="40" height="40">
-</a>
-<a href="https://replit.com/@NaufalK25" title="@NaufalK25">
-  <img src="img/replit.png" alt="@NaufalK25" width="40" height="40">
-</a>
-</section>
+[![Gmail Badge](https://img.shields.io/badge/-naufalkateni2001@gmail.com-c14438?style=flat&logo=gmail&logoColor=white&link=mailto:naufalkateni2001@gmail.com)](mailto:naufalkateni2001@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Muhammad%20Naufal%20Kateni-0072b1?style=flat&logo=linkedin&link=https://www.linkedin.com/in/muhammad-naufal-kateni-10065420a/)](https://www.linkedin.com/in/muhammad-naufal-kateni-10065420a//)
+[![GitHub Badge](https://img.shields.io/badge/-NaufalK25-0d1117?style=flat&logo=github&link=https://github.com/NaufalK25)](https://github.com/NaufalK25)
+[![Gitlab Badge](https://img.shields.io/badge/-NaufalK25-292961?style=flat&logo=gitlab&link=https://gitlab.com/NaufalK25)](https://gitlab.com/NaufalK25)
+[![Twitter Badge](https://img.shields.io/badge/-NaufalK2511-1d9bf0?style=flat&logo=twitter&logoColor=white&link=https://twitter.com/NaufalK2511)](https://twitter.com/NaufalK2511)
+[![Instagram Badge](https://img.shields.io/badge/-NaufalK2511-efefef?style=flat&logo=instagram&link=https://twitter.com/NaufalK2511)](https://www.instagram.com/naufalkateni/)
+[![Replit Badge](https://img.shields.io/badge/-@NaufalK25-1c2333?style=flat&logo=replit&link=https://replit.com/@NaufalK25)](https://replit.com/@NaufalK25)
 
 <!-- Linebreak -->
 <br>
@@ -41,15 +31,9 @@ Hi, My name is [Muhammad Naufal Kateni](https://muhammad-naufal-kateni.herokuapp
 ### 📃 Stats
 
 <!-- Stats from https://github-readme-stats.vercel.app -->
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=NaufalK25&show_icons=true&hide_border=true&include_all_commits=true&theme=react&custom_title=NaufalK25's%20GitHub%20Stats" alt="NaufalK25's GitHub Stats">
-</p>
-<p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NaufalK25&theme=react&show_icons=true&layout=compact&hide_border=true&langs_count=8&custom_title=NaufalK25's%20Most%20Used%20Languages" alt="NaufalK25's Most Used Language">
-</p>
-<p>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=NaufalK25&theme=react&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="NaufalK25's Streak Stats">
-</p>
+![NaufalK25's GitHub Stats](https://github-readme-stats.vercel.app/api?username=NaufalK25&show_icons=true&hide_border=true&include_all_commits=true&theme=react&custom_title=NaufalK25's%20GitHub%20Stats)
+![NaufalK25's Most Used Language](https://github-readme-stats.vercel.app/api/top-langs/?username=NaufalK25&theme=react&show_icons=true&layout=compact&hide_border=true&langs_count=8&custom_title=NaufalK25's%20Most%20Used%20Languages)
+![NaufalK25's Streak Stats](https://github-readme-streak-stats.herokuapp.com?user=NaufalK25&theme=react&hide_border=true&date_format=j%20M%5B%20Y%5D)
 
 <!-- Stats from GitHub -->
 <!-- ![Naufal's GitHub Stats](https://github-readme-stats.vercel.app/api?username=NaufalK25&theme=dark&show_icons=true&hide_border=false)
