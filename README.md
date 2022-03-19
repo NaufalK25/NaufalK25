@@ -17,12 +17,12 @@ Hi, My name is [Muhammad Naufal Kateni](https://muhammad-naufal-kateni.herokuapp
 
 ### 📫 Connect with me
 
-[![Gmail Badge](https://img.shields.io/badge/-naufalkateni2001@gmail.com-c14438?style=flat&logo=gmail&logoColor=white)](mailto:naufalkateni2001@gmail.com)
 [![Linkedin Badge](https://img.shields.io/badge/-Muhammad%20Naufal%20Kateni-0072b1?style=flat&logo=linkedin)](https://www.linkedin.com/in/muhammad-naufal-kateni-10065420a//)
 [![GitHub Badge](https://img.shields.io/badge/-NaufalK25-0d1117?style=flat&logo=github)](https://github.com/NaufalK25)
 [![Gitlab Badge](https://img.shields.io/badge/-NaufalK25-292961?style=flat&logo=gitlab)](https://gitlab.com/NaufalK25)
+[![Gmail Badge](https://img.shields.io/badge/-naufalkateni2001@gmail.com-c14438?style=flat&logo=gmail&logoColor=white)](mailto:naufalkateni2001@gmail.com)
 [![Twitter Badge](https://img.shields.io/badge/-NaufalK2511-1d9bf0?style=flat&logo=twitter&logoColor=white)](https://twitter.com/NaufalK2511)
-[![Instagram Badge](https://img.shields.io/badge/-naufalkateni-efefef?style=flat&logo=instagram)](https://www.instagram.com/naufalkateni/)
+[![Instagram Badge](https://img.shields.io/badge/-naufalkateni-bf3a96?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/naufalkateni/)
 [![Replit Badge](https://img.shields.io/badge/-@NaufalK25-1c2333?style=flat&logo=replit)](https://replit.com/@NaufalK25)
 
 <!-- Stats -->
