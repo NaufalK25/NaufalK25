@@ -4,7 +4,7 @@
 
 <!-- Badges -->
 
-![NaufalK25's GitHub Profile Views](https://komarev.com/ghpvc/?username=NaufalK25)
+<!-- ![NaufalK25's GitHub Profile Views](https://komarev.com/ghpvc/?username=NaufalK25) -->
 [![NaufalK25's GitHub Followers](https://img.shields.io/github/followers/NaufalK25?label=Followers&style=social)](https://github.com/NaufalK25?tab=followers)
 [![NaufalK25's freeCodeCamp Points](https://img.shields.io/freecodecamp/points/naufalk?label=Points&style=social&logo=freecodecamp)](https://www.freecodecamp.org/NaufalK)
 [![NaufalK25's GitHub Codewars Badge](https://www.codewars.com/users/NaufalK/badges/micro)](https://www.codewars.com/users/NaufalK)
