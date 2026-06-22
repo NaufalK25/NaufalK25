@@ -19,4 +19,4 @@ jobs:
           plugin_anilist: yes
           plugin_anilist_user: NaufalK25
           plugin_anilist_medias: anime, manga
-          plugin_anilist_sections: favorites, watching
+          plugin_anilist_sections: favorites, characters
