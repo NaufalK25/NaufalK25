@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Muhammad Naufal Kateni 👋</h1>
 
 <p align="center">
-  <img alt="Typing SVG" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=2E97F7&center=true&vCenter=true&width=435&lines=Backend+Developer;Express.js+%26+TypeScript;Open-Source+Contributor" />
+  <img alt="Typing SVG" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=2E97F7&center=true&vCenter=true&width=435&lines=Backend+Developer;Software+Engineer;Open-Source+Contributor;Vibe+Coding+Cleanup+Specialist" />
 </p>
 
 <p align="center">
