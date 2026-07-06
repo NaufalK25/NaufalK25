@@ -3,8 +3,8 @@ on:
   schedule:
     - cron: "0 17 * * *" # UTC+7
   workflow_dispatch:
-  push:
-    branches: ["main"]
+  # push:
+  #   branches: ["main"]
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
