@@ -103,6 +103,51 @@
 ### ⏱️ WakaTime Stats
 
 <!--START_SECTION:waka-->
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                143 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.10 % 
+🌆 Daytime                589 commits         ██████████░░░░░░░░░░░░░░░   41.60 % 
+🌃 Evening                600 commits         ███████████░░░░░░░░░░░░░░   42.37 % 
+🌙 Night                  84 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.93 % 
+```
+📅 **I'm Most Productive on Wednesday** 
+
+```text
+Monday                   207 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.62 % 
+Tuesday                  198 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.98 % 
+Wednesday                242 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.09 % 
+Thursday                 160 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.30 % 
+Friday                   197 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.91 % 
+Saturday                 190 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.42 % 
+Sunday                   222 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.68 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+💬 Programming Languages: 
+No Activity Tracked This Week
+```
+
+**I Mostly Code in TypeScript** 
+
+```text
+TypeScript               21 repos            ████████░░░░░░░░░░░░░░░░░   31.82 % 
+JavaScript               17 repos            ██████░░░░░░░░░░░░░░░░░░░   25.76 % 
+PHP                      6 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
+Shell                    1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.52 % 
+Go                       1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.52 % 
+```
+
+
+
+**Timeline**
+
+![Lines of Code chart](https://raw.githubusercontent.com/NaufalK25/NaufalK25/main/assets/bar_graph.png)
+
+
 <!--END_SECTION:waka-->
 
 ### 📈 Extended Metrics
