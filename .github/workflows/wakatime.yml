@@ -1,9 +1,11 @@
-name: Waka Readme
+name: WakaTime
 
 on:
   schedule:
     - cron: "0 17 * * *" # UTC+7
   workflow_dispatch:
+  push:
+    branches: ["main"]
 
 jobs:
   update-readme:
