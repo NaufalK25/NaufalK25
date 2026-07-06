@@ -2,10 +2,11 @@ name: WakaTime
 
 on:
   schedule:
-    - cron: "0 17 * * *" # UTC+7
+    - cron: "15 17 * * *" # UTC+7, offset from metrics.yml to avoid push conflicts
   workflow_dispatch:
   push:
     branches: ["main"]
+    paths-ignore: ["README.md", "assets/github-metrics.svg"]
 
 jobs:
   update-readme:

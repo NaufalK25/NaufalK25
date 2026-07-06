@@ -3,8 +3,9 @@ on:
   schedule:
     - cron: "0 17 * * *" # UTC+7
   workflow_dispatch:
-  # push:
-  #   branches: ["main"]
+  push:
+    branches: ["main"]
+    paths-ignore: ["README.md"]
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -14,6 +15,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          filename: assets/github-metrics.svg
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_anilist: yes
