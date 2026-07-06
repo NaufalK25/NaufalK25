@@ -1,8 +1,8 @@
-name: WakaTime
+name: Readme
 
 on:
   schedule:
-    - cron: "15 17 * * *" # UTC+7, offset from metrics.yml to avoid push conflicts
+    - cron: "0 17 * * *" # UTC+7
   workflow_dispatch:
   push:
     branches: ["main"]
@@ -10,9 +10,21 @@ on:
 
 jobs:
   update-readme:
-    name: Update WakaTime stats
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: assets/github-metrics.svg
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_anilist: yes
+          plugin_anilist_user: NaufalK25
+          plugin_anilist_medias: anime, manga
+          plugin_anilist_sections: favorites, characters
+
       - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
