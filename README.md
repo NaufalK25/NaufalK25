@@ -103,34 +103,6 @@
 ### ⏱️ WakaTime Stats
 
 <!--START_SECTION:waka-->
-**I'm an Early 🐤** 
-
-```text
-🌞 Morning                146 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.29 % 
-🌆 Daytime                589 commits         ██████████░░░░░░░░░░░░░░░   41.51 % 
-🌃 Evening                600 commits         ███████████░░░░░░░░░░░░░░   42.28 % 
-🌙 Night                  84 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.92 % 
-```
-📅 **I'm Most Productive on Wednesday** 
-
-```text
-Monday                   210 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.80 % 
-Tuesday                  198 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.95 % 
-Wednesday                242 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.05 % 
-Thursday                 160 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.28 % 
-Friday                   197 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.88 % 
-Saturday                 190 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.39 % 
-Sunday                   222 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.64 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-💬 Programming Languages: 
-No Activity Tracked This Week
-```
-
 **I Mostly Code in TypeScript** 
 
 ```text
