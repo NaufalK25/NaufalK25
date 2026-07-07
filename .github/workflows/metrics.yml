@@ -32,3 +32,6 @@ jobs:
           plugin_anilist_user: NaufalK25
           plugin_anilist_medias: anime, manga
           plugin_anilist_sections: favorites, characters
+          plugin_wakatime: yes
+          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
+          plugin_wakatime_sections: time, languages, languages-graphs
