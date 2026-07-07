@@ -1,0 +1,33 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 17 * * *" # UTC+7
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugin_activity: yes
+          plugin_activity_timestamps: yes
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_notable: yes
+          plugin_notable_from: all
+          plugin_notable_type: commit, pull_request, issue
+          plugin_followup: yes
+          plugin_followup_sections: user
+          plugin_wakatime: yes
+          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
+          plugin_anilist: yes
+          plugin_anilist_user: NaufalK25
+          plugin_anilist_medias: anime, manga
+          plugin_anilist_sections: favorites, characters
