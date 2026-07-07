@@ -17,6 +17,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_activity: yes
+          plugin_activity_visibility: public
           plugin_activity_timestamps: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
@@ -25,8 +26,6 @@ jobs:
           plugin_notable_type: commit, pull_request, issue
           plugin_followup: yes
           plugin_followup_sections: user
-          plugin_wakatime: yes
-          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
           plugin_anilist: yes
           plugin_anilist_user: NaufalK25
           plugin_anilist_medias: anime, manga
