@@ -35,7 +35,7 @@
 
 **Programming Language and Framework**
 
-[![Programming Language and Framework](https://skillicons.dev/icons?i=js,ts,react,vite,tailwind,nodejs,express,nestjs&perline=5)](https://skillicons.dev)
+[![Programming Language and Framework](https://skillicons.dev/icons?i=js,ts,php,react,vite,tailwind,nodejs,express,nestjs,laravel&perline=5)](https://skillicons.dev)
 
 **Database and ORM**
 
@@ -43,7 +43,7 @@
 
 **Tool**
 
-[![Tool](https://skillicons.dev/icons?i=git,github,gitlab,postman,graphql,vercel,netlify&perline=5)](https://skillicons.dev)
+[![Tool](https://skillicons.dev/icons?i=git,github,gitlab,postman,graphql,vercel,netlify,wordpress&perline=5)](https://skillicons.dev)
 
 ### 📊 GitHub Stats
 
