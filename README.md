@@ -35,15 +35,15 @@
 
 **Programming Language and Framework**
 
-[![Programming Language and Framework](https://skillicons.dev/icons?i=js,ts,php,react,vite,tailwind,nodejs,express,nestjs,laravel&perline=5)](https://skillicons.dev)
+[![Programming Language and Framework](https://skillicons.dev/icons?i=js,ts,php,react,vite,tailwind,nodejs,express,nestjs,laravel)](https://skillicons.dev)
 
 **Database and ORM**
 
-[![Database and ORM](https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,prisma,sequelize&perline=5)](https://skillicons.dev)
+[![Database and ORM](https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,prisma,sequelize)](https://skillicons.dev)
 
 **Tool**
 
-[![Tool](https://skillicons.dev/icons?i=git,github,gitlab,postman,graphql,vercel,netlify,wordpress&perline=5)](https://skillicons.dev)
+[![Tool](https://skillicons.dev/icons?i=git,github,gitlab,postman,graphql,vercel,netlify,wordpress)](https://skillicons.dev)
 
 ### 📊 GitHub Stats
 
