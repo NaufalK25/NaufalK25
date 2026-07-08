@@ -1,0 +1,29 @@
+# .github/workflows/gitlab-stats.yml
+name: Update GitLab Stats
+on:
+  schedule:
+    - cron: "15 17 * * *" # UTC+7
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - run: pip install requests
+      - run: python generate_gitlab_stats.py
+        env:
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+          GITLAB_USERNAME: ${{ secrets.GITLAB_USERNAME }}
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add gitlab-stats.svg
+          git commit -m "Update GitLab stats" || echo "No changes"
+          git pull --rebase origin main
+          git push
