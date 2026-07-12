@@ -23,6 +23,10 @@ jobs:
           plugin_notable_repositories: yes
           plugin_notable_indepth: yes
           plugin_notable_types: commit, pull_request, issue
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          commits_authoring: firstname lastname, NaufalK25, naufalkateni2001@gmail.com
+          plugin_languages_details: bytes-size, percentage, lines
           plugin_followup: yes
           plugin_followup_sections: user
           plugin_anilist: yes
