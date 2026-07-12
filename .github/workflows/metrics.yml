@@ -16,9 +16,6 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          plugin_activity: yes
-          plugin_activity_visibility: public
-          plugin_activity_timestamps: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_notable: yes
