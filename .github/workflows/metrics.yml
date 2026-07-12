@@ -23,6 +23,9 @@ jobs:
           plugin_notable_repositories: yes
           plugin_notable_indepth: yes
           plugin_notable_types: commit, pull_request, issue
+          plugin_activity: yes
+          plugin_activity_visibility: public
+          plugin_activity_timestamps: yes
           plugin_followup: yes
           plugin_followup_sections: user
           plugin_anilist: yes
