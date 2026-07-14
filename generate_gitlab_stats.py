@@ -23,7 +23,8 @@ import os
 import sys
 import datetime
 import requests
-from collections import Counter, defaultdict
+from collections import defaultdict
+from typing import NoReturn, TypedDict, cast
 
 try:
     from dotenv import load_dotenv
@@ -32,46 +33,80 @@ try:
 except ImportError:
     pass  # dotenv is optional — fine if running where env vars are set another way (e.g. GitHub Actions)
 
-GITLAB_HOST = os.environ.get("GITLAB_HOST", "https://gitlab.com").rstrip("/")
-GITLAB_TOKEN = os.environ.get("GITLAB_TOKEN")
-GITLAB_USERNAME = os.environ.get("GITLAB_USERNAME")
-OUTPUT_FILE = os.environ.get("OUTPUT_FILE", "gitlab-stats.svg")
+GITLAB_HOST: str = os.environ.get("GITLAB_HOST", "https://gitlab.com").rstrip("/")
+GITLAB_TOKEN: str | None = os.environ.get("GITLAB_TOKEN")
+GITLAB_USERNAME: str | None = os.environ.get("GITLAB_USERNAME")
+OUTPUT_FILE: str = os.environ.get("OUTPUT_FILE", "gitlab-stats.svg")
 
-API_BASE = f"{GITLAB_HOST}/api/v4"
-HEADERS = {"PRIVATE-TOKEN": GITLAB_TOKEN} if GITLAB_TOKEN else {}
+API_BASE: str = f"{GITLAB_HOST}/api/v4"
+HEADERS: dict[str, str] = {"PRIVATE-TOKEN": GITLAB_TOKEN} if GITLAB_TOKEN else {}
+
+# Query string values GitLab's API accepts (bool gets coerced to "true"/"false" by requests).
+QueryParams = dict[str, str | int | bool]
 
 
-def die(msg):
+class GitLabUser(TypedDict):
+    id: int
+    username: str
+    name: str
+
+
+class GitLabProject(TypedDict):
+    id: int
+
+
+class GitLabEvent(TypedDict):
+    created_at: str
+
+
+class ContributionDay(TypedDict):
+    date: str
+    count: int
+
+
+class GitLabStats(TypedDict):
+    username: str
+    name: str
+    projects: int
+    top_languages: list[tuple[str, float]]
+    contributions: list[ContributionDay]
+    total_contributions: int
+
+
+def die(msg: str) -> NoReturn:
     print(f"ERROR: {msg}", file=sys.stderr)
     sys.exit(1)
 
 
-def get_json(url, params=None):
+def get_json(url: str, params: QueryParams | None = None) -> tuple[object, requests.structures.CaseInsensitiveDict[str]]:
     resp = requests.get(url, headers=HEADERS, params=params, timeout=30)
     if resp.status_code != 200:
         die(f"GitLab API request failed ({resp.status_code}): {url}\n{resp.text[:300]}")
-    return resp.json(), resp.headers
+    data: object = resp.json()
+    return data, resp.headers
 
 
-def get_user_id(username):
+def get_user_id(username: str) -> GitLabUser:
     data, _ = get_json(f"{API_BASE}/users", params={"username": username})
-    if not data:
+    users = cast(list[GitLabUser], data)
+    if not users:
         die(f"No GitLab user found for username '{username}'")
-    return data[0]
+    return users[0]
 
 
-def get_all_pages(url, params=None, max_pages=10):
+def get_all_pages(url: str, params: QueryParams | None = None, max_pages: int = 10) -> list[object]:
     """Fetch all pages up to max_pages (GitLab paginates via headers)."""
     params = dict(params or {})
     params.setdefault("per_page", 100)
-    results = []
+    results: list[object] = []
     page = 1
     while page <= max_pages:
         params["page"] = page
         data, headers = get_json(url, params=params)
-        if not data:
+        rows = cast(list[object], data)
+        if not rows:
             break
-        results.extend(data)
+        results.extend(rows)
         next_page = headers.get("X-Next-Page")
         if not next_page:
             break
@@ -79,44 +114,54 @@ def get_all_pages(url, params=None, max_pages=10):
     return results
 
 
-def collect_stats(user):
+def collect_stats(user: GitLabUser) -> GitLabStats:
     user_id = user["id"]
 
     # Projects where the user is a formal member (own repos, org/group repos).
-    member_projects = get_all_pages(
-        f"{API_BASE}/projects",
-        params={"membership": True, "order_by": "last_activity_at"},
+    member_projects = cast(
+        list[GitLabProject],
+        get_all_pages(
+            f"{API_BASE}/projects",
+            params={"membership": True, "order_by": "last_activity_at"},
+        ),
     )
 
     # Projects the user has contributed to (pushes/MRs/comments) but isn't
     # necessarily a member of, e.g. a merge request on someone else's repo.
     # Membership alone misses these, so merge both sets by project id.
-    contributed_projects = get_all_pages(
-        f"{API_BASE}/users/{user_id}/contributed_projects",
+    contributed_projects = cast(
+        list[GitLabProject],
+        get_all_pages(f"{API_BASE}/users/{user_id}/contributed_projects"),
     )
 
-    projects_by_id = {p["id"]: p for p in member_projects}
+    projects_by_id: dict[int, GitLabProject] = {p["id"]: p for p in member_projects}
     for p in contributed_projects:
         projects_by_id.setdefault(p["id"], p)
-    projects = list(projects_by_id.values())
+    projects: list[GitLabProject] = list(projects_by_id.values())
     project_count = len(projects)
 
-    # Top languages, aggregated across projects (best-effort; skipped on error)
-    lang_totals = Counter()
+    # Top languages, aggregated across projects (best-effort; skipped on error).
+    # Plain dict rather than Counter: typeshed pins Counter's values to int,
+    # but language percentages are floats.
+    lang_totals: dict[str, float] = {}
     for p in projects[:20]:  # cap to avoid excessive API calls
         try:
             langs, _ = get_json(f"{API_BASE}/projects/{p['id']}/languages")
-            for lang, pct in langs.items():
-                lang_totals[lang] += pct
+            for lang, pct in cast(dict[str, float], langs).items():
+                lang_totals[lang] = lang_totals.get(lang, 0.0) + pct
         except SystemExit:
             # get_json calls die() on failure; treat as "skip this project"
             raise
         except Exception:
             continue
 
-    top_lang_pairs = lang_totals.most_common(5)
+    top_lang_pairs: list[tuple[str, float]] = sorted(
+        lang_totals.items(), key=lambda kv: kv[1], reverse=True
+    )[:5]
     lang_sum = sum(v for _, v in top_lang_pairs) or 1
-    top_languages = [(lang, round(v / lang_sum * 100, 1)) for lang, v in top_lang_pairs]
+    top_languages: list[tuple[str, float]] = [
+        (lang, round(v / lang_sum * 100, 1)) for lang, v in top_lang_pairs
+    ]
 
     # Contribution events (push events) as a commit-activity proxy. This is
     # already scoped to the user (not the membership-only project list above),
@@ -125,13 +170,16 @@ def collect_stats(user):
     # member. GitLab only omits events for projects the user has since lost
     # visibility into entirely, which isn't recoverable via the API.
     # Build a day -> count map for the most recent year.
-    events = get_all_pages(
-        f"{API_BASE}/users/{user_id}/events",
-        params={"action": "pushed"},
-        max_pages=20,
+    events = cast(
+        list[GitLabEvent],
+        get_all_pages(
+            f"{API_BASE}/users/{user_id}/events",
+            params={"action": "pushed"},
+            max_pages=20,
+        ),
     )
 
-    daily_counts = defaultdict(int)
+    daily_counts: defaultdict[str, int] = defaultdict(int)
     for e in events:
         created_at = e.get("created_at", "")
         day = created_at[:10]  # "YYYY-MM-DD"
@@ -144,7 +192,7 @@ def collect_stats(user):
     start -= datetime.timedelta(days=(start.weekday() + 1) % 7)
     num_days = (today - start).days + 1
     all_days = [start + datetime.timedelta(days=i) for i in range(num_days)]
-    contributions = [
+    contributions: list[ContributionDay] = [
         {"date": d.isoformat(), "count": daily_counts.get(d.isoformat(), 0)}
         for d in all_days
     ]
@@ -160,7 +208,7 @@ def collect_stats(user):
     }
 
 
-LANG_COLORS = [
+LANG_COLORS: list[str] = [
     "#3572A5",
     "#f1e05a",
     "#e34c26",
@@ -172,7 +220,7 @@ LANG_COLORS = [
 ]
 
 
-def render_svg(stats):
+def render_svg(stats: GitLabStats) -> str:
     # ---- Grid layout (drives overall card width) ----
     contributions = stats["contributions"]
     n = len(contributions)
@@ -224,7 +272,7 @@ def render_svg(stats):
     grid_top = contrib_y_top + 20
     max_count = max((c["count"] for c in contributions), default=0) or 1
 
-    def cell_color(count):
+    def cell_color(count: int) -> str:
         if count == 0:
             return "#161b22"
         ratio = count / max_count
@@ -270,7 +318,7 @@ def render_svg(stats):
     return svg
 
 
-def main():
+def main() -> None:
     if not GITLAB_TOKEN:
         die("GITLAB_TOKEN environment variable is not set")
     if not GITLAB_USERNAME:
