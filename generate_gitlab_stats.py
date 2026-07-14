@@ -82,11 +82,23 @@ def get_all_pages(url, params=None, max_pages=10):
 def collect_stats(user):
     user_id = user["id"]
 
-    # Projects owned or contributed to
-    projects = get_all_pages(
+    # Projects where the user is a formal member (own repos, org/group repos).
+    member_projects = get_all_pages(
         f"{API_BASE}/projects",
         params={"membership": True, "order_by": "last_activity_at"},
     )
+
+    # Projects the user has contributed to (pushes/MRs/comments) but isn't
+    # necessarily a member of, e.g. a merge request on someone else's repo.
+    # Membership alone misses these, so merge both sets by project id.
+    contributed_projects = get_all_pages(
+        f"{API_BASE}/users/{user_id}/contributed_projects",
+    )
+
+    projects_by_id = {p["id"]: p for p in member_projects}
+    for p in contributed_projects:
+        projects_by_id.setdefault(p["id"], p)
+    projects = list(projects_by_id.values())
     project_count = len(projects)
 
     # Top languages, aggregated across projects (best-effort; skipped on error)
@@ -106,12 +118,17 @@ def collect_stats(user):
     lang_sum = sum(v for _, v in top_lang_pairs) or 1
     top_languages = [(lang, round(v / lang_sum * 100, 1)) for lang, v in top_lang_pairs]
 
-    # Contribution events (push events) as a commit-activity proxy.
-    # Build a day -> count map for the most recent 14 days.
+    # Contribution events (push events) as a commit-activity proxy. This is
+    # already scoped to the user (not the membership-only project list above),
+    # so it includes pushes to any project the user has access to, including
+    # ones owned by other users where they contributed without being a formal
+    # member. GitLab only omits events for projects the user has since lost
+    # visibility into entirely, which isn't recoverable via the API.
+    # Build a day -> count map for the most recent year.
     events = get_all_pages(
         f"{API_BASE}/users/{user_id}/events",
         params={"action": "pushed"},
-        max_pages=5,
+        max_pages=20,
     )
 
     daily_counts = defaultdict(int)
