@@ -22,7 +22,7 @@
 ### 🌐 Socials
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/muhammad-naufal-kateni-10065420a/"><img alt="LinkedIn Badge" src="https://custom-icon-badges.demolab.com/badge/Muhammad%20Naufal%20Kateni-0A66C2?logo=linkedin-white&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/muhammad-naufal-kateni/"><img alt="LinkedIn Badge" src="https://custom-icon-badges.demolab.com/badge/Muhammad%20Naufal%20Kateni-0A66C2?logo=linkedin-white&logoColor=white" /></a>
   <a href="https://github.com/NaufalK25"><img alt="GitHub Badge" src="https://img.shields.io/badge/-NaufalK25-0d1117?style=flat&logo=github" /></a>
   <a href="https://gitlab.com/NaufalK25"><img alt="GitLab Badge" src="https://img.shields.io/badge/-NaufalK25-292961?style=flat&logo=gitlab" /></a>
   <a href="mailto:naufalkateni2001@gmail.com"><img alt="Gmail Badge" src="https://img.shields.io/badge/-naufalkateni2001@gmail.com-c14438?style=flat&logo=gmail&logoColor=white" /></a>
