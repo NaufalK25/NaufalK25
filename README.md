@@ -49,22 +49,22 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=NaufalK25&show_icons=true&hide_border=true&include_all_commits=true&theme=react&custom_title=NaufalK25's%20GitHub%20Stats" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=NaufalK25&show_icons=true&hide_border=true&include_all_commits=true&theme=default&custom_title=NaufalK25's%20GitHub%20Stats" />
-    <img alt="NaufalK25's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=NaufalK25&show_icons=true&hide_border=true&include_all_commits=true&theme=react&custom_title=NaufalK25's%20GitHub%20Stats" height="180" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=NaufalK25&show_icons=true&hide_border=true&include_all_commits=true&theme=react&custom_title=NaufalK25's%20GitHub%20Stats" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=NaufalK25&show_icons=true&hide_border=true&include_all_commits=true&theme=default&custom_title=NaufalK25's%20GitHub%20Stats" />
+    <img alt="NaufalK25's GitHub Stats" src="https://github-stats-extended.vercel.app/api?username=NaufalK25&show_icons=true&hide_border=true&include_all_commits=true&theme=react&custom_title=NaufalK25's%20GitHub%20Stats" height="180" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=NaufalK25&theme=react&show_icons=true&layout=compact&hide_border=true&langs_count=8&custom_title=NaufalK25's%20Most%20Used%20Languages" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=NaufalK25&theme=default&show_icons=true&layout=compact&hide_border=true&langs_count=8&custom_title=NaufalK25's%20Most%20Used%20Languages" />
-    <img alt="NaufalK25's Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NaufalK25&theme=react&show_icons=true&layout=compact&hide_border=true&langs_count=8&custom_title=NaufalK25's%20Most%20Used%20Languages" height="180" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=NaufalK25&theme=react&show_icons=true&layout=compact&hide_border=true&langs_count=8&custom_title=NaufalK25's%20Most%20Used%20Languages" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=NaufalK25&theme=default&show_icons=true&layout=compact&hide_border=true&langs_count=8&custom_title=NaufalK25's%20Most%20Used%20Languages" />
+    <img alt="NaufalK25's Most Used Languages" src="https://github-stats-extended.vercel.app/api/top-langs/?username=NaufalK25&theme=react&show_icons=true&layout=compact&hide_border=true&langs_count=8&custom_title=NaufalK25's%20Most%20Used%20Languages" height="180" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=NaufalK25&theme=react&hide_border=true&date_format=j%20M%5B%20Y%5D" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com?user=NaufalK25&theme=default&hide_border=true&date_format=j%20M%5B%20Y%5D" />
-    <img alt="NaufalK25's Streak Stats" src="https://github-readme-streak-stats.herokuapp.com?user=NaufalK25&theme=react&hide_border=true&date_format=j%20M%5B%20Y%5D" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=NaufalK25&theme=react&hide_border=true&date_format=j%20M%5B%20Y%5D" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=NaufalK25&theme=default&hide_border=true&date_format=j%20M%5B%20Y%5D" />
+    <img alt="NaufalK25's Streak Stats" src="https://streak-stats.demolab.com?user=NaufalK25&theme=react&hide_border=true&date_format=j%20M%5B%20Y%5D" />
   </picture>
 </p>
 
