@@ -13,24 +13,24 @@
   <text x="30" y="64" class="section-title">Top Languages</text>
     <text x="30" y="84" class="label">TypeScript</text>
     <rect x="140" y="73" width="649" height="12" rx="4" fill="#21262d"/>
-    <rect x="140" y="73" width="458.8" height="12" rx="4" fill="#3572A5"/>
-    <text x="769" y="84" class="value" text-anchor="end">70.7%</text>
+    <rect x="140" y="73" width="464.7" height="12" rx="4" fill="#3572A5"/>
+    <text x="769" y="84" class="value" text-anchor="end">71.6%</text>
     <text x="30" y="110" class="label">Go</text>
     <rect x="140" y="99" width="649" height="12" rx="4" fill="#21262d"/>
-    <rect x="140" y="99" width="81.1" height="12" rx="4" fill="#f1e05a"/>
-    <text x="769" y="110" class="value" text-anchor="end">12.5%</text>
+    <rect x="140" y="99" width="75.9" height="12" rx="4" fill="#f1e05a"/>
+    <text x="769" y="110" class="value" text-anchor="end">11.7%</text>
     <text x="30" y="136" class="label">JavaScript</text>
     <rect x="140" y="125" width="649" height="12" rx="4" fill="#21262d"/>
-    <rect x="140" y="125" width="71.4" height="12" rx="4" fill="#e34c26"/>
-    <text x="769" y="136" class="value" text-anchor="end">11.0%</text>
+    <rect x="140" y="125" width="72.7" height="12" rx="4" fill="#e34c26"/>
+    <text x="769" y="136" class="value" text-anchor="end">11.2%</text>
     <text x="30" y="162" class="label">TSX</text>
     <rect x="140" y="151" width="649" height="12" rx="4" fill="#21262d"/>
-    <rect x="140" y="151" width="31.2" height="12" rx="4" fill="#563d7c"/>
-    <text x="769" y="162" class="value" text-anchor="end">4.8%</text>
+    <rect x="140" y="151" width="29.2" height="12" rx="4" fill="#563d7c"/>
+    <text x="769" y="162" class="value" text-anchor="end">4.5%</text>
     <text x="30" y="188" class="label">Dockerfile</text>
     <rect x="140" y="177" width="649" height="12" rx="4" fill="#21262d"/>
-    <rect x="140" y="177" width="6.5" height="12" rx="4" fill="#00ADD8"/>
-    <text x="769" y="188" class="value" text-anchor="end">1.0%</text>
+    <rect x="140" y="177" width="5.8" height="12" rx="4" fill="#00ADD8"/>
+    <text x="769" y="188" class="value" text-anchor="end">0.9%</text>
   
     <text x="30" y="238" class="section-title">Recent Contributions</text>
     <text x="769" y="238" class="label" text-anchor="end">Total: 949</text>
@@ -399,4 +399,5 @@
     <rect x="744.0" y="324.0" width="11.0" height="11.0" rx="2" fill="#161b22"><title>2026-08-21: 0</title></rect>
     <rect x="744.0" y="338.0" width="11.0" height="11.0" rx="2" fill="#161b22"><title>2026-08-22: 0</title></rect>
     <rect x="758.0" y="254.0" width="11.0" height="11.0" rx="2" fill="#161b22"><title>2026-08-23: 0</title></rect>
+    <rect x="758.0" y="268.0" width="11.0" height="11.0" rx="2" fill="#161b22"><title>2026-08-24: 0</title></rect>
 </svg>
