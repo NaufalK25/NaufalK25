@@ -13,20 +13,20 @@
   <text x="30" y="64" class="section-title">Top Languages</text>
     <text x="30" y="84" class="label">TypeScript</text>
     <rect x="140" y="73" width="649" height="12" rx="4" fill="#21262d"/>
-    <rect x="140" y="73" width="464.7" height="12" rx="4" fill="#3572A5"/>
-    <text x="769" y="84" class="value" text-anchor="end">71.6%</text>
+    <rect x="140" y="73" width="440.0" height="12" rx="4" fill="#3572A5"/>
+    <text x="769" y="84" class="value" text-anchor="end">67.8%</text>
     <text x="30" y="110" class="label">Go</text>
     <rect x="140" y="99" width="649" height="12" rx="4" fill="#21262d"/>
-    <rect x="140" y="99" width="75.9" height="12" rx="4" fill="#f1e05a"/>
-    <text x="769" y="110" class="value" text-anchor="end">11.7%</text>
+    <rect x="140" y="99" width="72.0" height="12" rx="4" fill="#f1e05a"/>
+    <text x="769" y="110" class="value" text-anchor="end">11.1%</text>
     <text x="30" y="136" class="label">JavaScript</text>
     <rect x="140" y="125" width="649" height="12" rx="4" fill="#21262d"/>
-    <rect x="140" y="125" width="72.7" height="12" rx="4" fill="#e34c26"/>
-    <text x="769" y="136" class="value" text-anchor="end">11.2%</text>
+    <rect x="140" y="125" width="70.7" height="12" rx="4" fill="#e34c26"/>
+    <text x="769" y="136" class="value" text-anchor="end">10.9%</text>
     <text x="30" y="162" class="label">TSX</text>
     <rect x="140" y="151" width="649" height="12" rx="4" fill="#21262d"/>
-    <rect x="140" y="151" width="29.2" height="12" rx="4" fill="#563d7c"/>
-    <text x="769" y="162" class="value" text-anchor="end">4.5%</text>
+    <rect x="140" y="151" width="61.0" height="12" rx="4" fill="#563d7c"/>
+    <text x="769" y="162" class="value" text-anchor="end">9.4%</text>
     <text x="30" y="188" class="label">Dockerfile</text>
     <rect x="140" y="177" width="649" height="12" rx="4" fill="#21262d"/>
     <rect x="140" y="177" width="5.8" height="12" rx="4" fill="#00ADD8"/>
@@ -404,4 +404,5 @@
     <rect x="758.0" y="296.0" width="11.0" height="11.0" rx="2" fill="#161b22"><title>2026-08-26: 0</title></rect>
     <rect x="758.0" y="310.0" width="11.0" height="11.0" rx="2" fill="#161b22"><title>2026-08-27: 0</title></rect>
     <rect x="758.0" y="324.0" width="11.0" height="11.0" rx="2" fill="#161b22"><title>2026-08-28: 0</title></rect>
+    <rect x="758.0" y="338.0" width="11.0" height="11.0" rx="2" fill="#161b22"><title>2026-08-29: 0</title></rect>
 </svg>
