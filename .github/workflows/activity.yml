@@ -1,11 +1,14 @@
 name: Recent Activity
+
 on:
   schedule:
     - cron: "30 17 * * *" # UTC+7
   workflow_dispatch:
+  push:
+    branches: ["main"]
 
 jobs:
-  activity:
+  github-activity:
     runs-on: ubuntu-latest
     permissions:
       contents: write
