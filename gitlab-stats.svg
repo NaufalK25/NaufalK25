@@ -13,8 +13,8 @@
   <text x="30" y="64" class="section-title">Top Languages</text>
     <text x="30" y="84" class="label">TypeScript</text>
     <rect x="140" y="73" width="649" height="12" rx="4" fill="#21262d"/>
-    <rect x="140" y="73" width="503.6" height="12" rx="4" fill="#3572A5"/>
-    <text x="769" y="84" class="value" text-anchor="end">77.6%</text>
+    <rect x="140" y="73" width="504.9" height="12" rx="4" fill="#3572A5"/>
+    <text x="769" y="84" class="value" text-anchor="end">77.8%</text>
     <text x="30" y="110" class="label">Go</text>
     <rect x="140" y="99" width="649" height="12" rx="4" fill="#21262d"/>
     <rect x="140" y="99" width="38.3" height="12" rx="4" fill="#f1e05a"/>
@@ -29,11 +29,11 @@
     <text x="769" y="162" class="value" text-anchor="end">5.4%</text>
     <text x="30" y="188" class="label">JavaScript</text>
     <rect x="140" y="177" width="649" height="12" rx="4" fill="#21262d"/>
-    <rect x="140" y="177" width="34.4" height="12" rx="4" fill="#00ADD8"/>
-    <text x="769" y="188" class="value" text-anchor="end">5.3%</text>
+    <rect x="140" y="177" width="33.1" height="12" rx="4" fill="#00ADD8"/>
+    <text x="769" y="188" class="value" text-anchor="end">5.1%</text>
   
     <text x="30" y="238" class="section-title">Recent Contributions</text>
-    <text x="769" y="238" class="label" text-anchor="end">Total: 1047</text>
+    <text x="769" y="238" class="label" text-anchor="end">Total: 1050</text>
     <rect x="30.0" y="254.0" width="11.0" height="11.0" rx="2" fill="#0e4429"><title>2025-10-26: 4</title></rect>
     <rect x="30.0" y="268.0" width="11.0" height="11.0" rx="2" fill="#0e4429"><title>2025-10-27: 3</title></rect>
     <rect x="30.0" y="282.0" width="11.0" height="11.0" rx="2" fill="#161b22"><title>2025-10-28: 0</title></rect>
@@ -403,4 +403,5 @@
     <rect x="758.0" y="282.0" width="11.0" height="11.0" rx="2" fill="#0e4429"><title>2026-10-27: 1</title></rect>
     <rect x="758.0" y="296.0" width="11.0" height="11.0" rx="2" fill="#0e4429"><title>2026-10-28: 1</title></rect>
     <rect x="758.0" y="310.0" width="11.0" height="11.0" rx="2" fill="#161b22"><title>2026-10-29: 0</title></rect>
+    <rect x="758.0" y="324.0" width="11.0" height="11.0" rx="2" fill="#0e4429"><title>2026-10-30: 3</title></rect>
 </svg>
